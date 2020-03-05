@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+@charset "ISO-8859-1";
+body{margin:0;
+padding:0;
+background-size:cover;
+background:url(reg4.jpg) no-repeat;
+background-size:cover;
+}
+.contaner{
+	position:absolute;
+	
+	width:250px;
+	
+	background:transperent;
+	top:30%;
+	left:30%;
+	translate:transform(-10,-50);
+	padding:10px;
+	
+}
+.input1{
+	background:transperent;
+	border:none;
+	border-bottom:1px solid black;
+padding:8px 0;
+	margin:8px 0;
+	
+	
+}
+

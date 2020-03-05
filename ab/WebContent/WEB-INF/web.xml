@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>ab</display-name>
+  
+  
+  <servlet>
+  <servlet-name>a1</servlet-name>
+  <servlet-class>ab.e</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>fro</servlet-name>
+  <servlet-class>ab.front</servlet-class>
+  </servlet>
+  
+   <servlet>
+  <servlet-name>regester</servlet-name>
+  <servlet-class>ab.regester</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>done</servlet-name>
+  <servlet-class>ab.done</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>a2</servlet-name>
+  <servlet-class>ab.login</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>a1</servlet-name>
+  <url-pattern>/c</url-pattern>
+  </servlet-mapping>
+
+
+
+ <servlet-mapping>
+  <servlet-name>done</servlet-name>
+  <url-pattern>/don</url-pattern>
+  </servlet-mapping>
+ 
+ <servlet-mapping>
+  <servlet-name>regester</servlet-name>
+  <url-pattern>/rg</url-pattern>
+  </servlet-mapping> 
+														  
+														  <servlet-mapping>
+														  <servlet-name>a2</servlet-name>
+														  <url-pattern>/d</url-pattern>
+														  </servlet-mapping>
+														  
+														  <servlet-mapping>
+														  <servlet-name>fro</servlet-name>
+														  <url-pattern>/fr</url-pattern>
+														  </servlet-mapping>
+</web-app>
